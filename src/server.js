@@ -11,7 +11,7 @@ nunjucks.configure("src/views", {
 
 server.get("/", (requisition, response) => {
     return response.render("index.html", {
-        title: "Um título."
+        title: ""
     })
 })
 
